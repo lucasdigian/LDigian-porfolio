@@ -8,13 +8,16 @@ import MainContent from './components/MainContent'
 function App() {
 
   return (
+
     <div id='portfolio' className='page-wrapper'>
-
       <h1 className='text-gradient'>Lucas Digian</h1>
-      <Sidebar/>
-      <MainContent/>
-
+      <div className='container'>
+        <Sidebar />
+        <MainContent />
+      </div>
     </div>
+
+
   )
 }
 
