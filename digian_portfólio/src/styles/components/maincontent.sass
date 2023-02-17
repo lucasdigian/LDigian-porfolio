@@ -1,0 +1,26 @@
+@use '../variables'
+@use '../mixins'
+#main
+    background-color: variables.$bg-color
+    flex: 2 1 0
+    border-radius: variables.$container-border-radius
+    padding: 3rem
+    color: #fff
+
+    h1
+        
+
+
+
+.line
+
+    width: 30%
+    height: 0.3rem
+    background: variables.$gradient
+    border-radius: 20px
+
+.aling-horizontal-center
+    @include mixins.center
+    justify-content: start
+    align-items: center
+    gap: 1rem

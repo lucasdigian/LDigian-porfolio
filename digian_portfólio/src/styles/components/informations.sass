@@ -1,0 +1,30 @@
+@use '../variables'
+@use '../mixins'
+#informations
+
+    @include mixins.center
+    flex-direction: column
+    background-color: variables.$bg-color-secondary
+    padding: 1rem
+    margin-bottom: 2rem
+    text-align: left
+    color: #fff
+    border-radius: variables.$card-border-radius
+
+    h3
+        font-size: 1rem
+        color: variables.$text-color-secondary
+        font-weight: normal
+        margin-bottom: 10px
+
+
+.info-card
+
+    @include mixins.center
+    justify-content: start
+    margin: .5rem 1rem
+    padding-bottom: 1rem
+    border-bottom: 1px solid #333
+    gap: 2rem
+    align-items: center
+
