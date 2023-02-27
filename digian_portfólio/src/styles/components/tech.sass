@@ -1,0 +1,33 @@
+@use '../variables'
+@use '../mixins.sass'
+
+#tech
+    display: flex
+    flex-wrap: wrap
+    gap: 2rem
+    
+
+
+.card-information-tech
+    flex: 1 1 300px
+    @include mixins.center
+    justify-content: start
+    align-items: center
+    gap: 1rem
+    color: #fff
+    padding: 0.5rem 1rem
+    border-radius: variables.$container-border-radius
+    border: 1px solid #333
+    transition: .6s
+
+    svg
+        font-size: 5rem
+        color: #fff
+
+    span
+        font-size: 0.8rem
+
+    &:hover
+        background: variables.$gradient
+
+
