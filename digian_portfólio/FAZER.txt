@@ -1,4 +1,0 @@
-terminar classe about que está dando conflito com o h1 do #portfolio
-arrumar espaçamento da section para o nome Lucas Digian
-
-o resto é resto
